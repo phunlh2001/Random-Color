@@ -1,0 +1,56 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root {
+  --black: #222;
+  --white: #fff;
+}
+
+* {
+  text-transform: uppercase;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  text-align: center;
+}
+
+#color {
+  color: hsl(205, 78%, 60%);
+}
+
+h1 {
+  background: var(--black);
+  color: var(--white);
+  letter-spacing: 2px;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  background: transparent;
+  color: var(--black);
+  padding: 1rem 1.5rem;
+  border: 2px solid var(--black);
+  border-radius: 8px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background: var(--black);
+  color: var(--white);
+}
